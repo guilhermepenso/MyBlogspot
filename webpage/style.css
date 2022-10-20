@@ -5,6 +5,29 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
+header {
+    background-color: #a6bbc4;
+    width: 90%;
+    border-radius: 11px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+div > ul {
+    display: none;
+    direction: rtl;
+}
+
+div:hover > ul {
+    display: block;
+}
+
+div#navigationbar {
+    text-align: right;
+        
+}
+
 body { 
     background-image: linear-gradient(to bottom, #051D26, #3F5259);
     background-attachment: fixed;
@@ -35,4 +58,18 @@ p {
 a {
     text-decoration: none;
     color: #000;
+}
+
+div#backtotop {
+    text-align: right;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #a6bbc4;
+    width: 90%;
+    border-radius: 11px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
